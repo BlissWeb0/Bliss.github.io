@@ -1,1 +1,149 @@
-# Bliss.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bliss</title>
+
+</head>
+<body>
+    <nav>
+        <ul class="navitems">
+            <li class="navitems">
+                <a href="#" class="navitems">Home</a>
+                <a href="#" class="navitems">About</a>
+                <a href="#" class="navitems">Shop</a>
+                <a href="#" class="navitems">Contact</a>
+                <button class="sendareview" onclick="openPopup()">Send A Review!</button>
+            </li>
+        </ul>
+        <h4 class="logo">Bliss</h4>
+    </nav>
+    <section class="homesection">
+        <h1 class="homeh1">Take web to the head</h1>
+        <h2 class="homeh2">Start making smart decision while buying websites</h2>
+        <p class="homepa">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper a lacus vestibulum sed. Morbi tristique senectus et netus et malesuada fames ac. Nisl nisi scelerisque eu ultrices vitae auctor. Hac habitasse platea dictumst quisque sagittis. Diam maecenas ultricies mi eget. Nisi scelerisque eu ultrices vitae auctor. Donec ultrices tincidunt arcu non sodales. Integer vitae justo eget magna fermentum iaculis eu non diam. Viverra justo nec ultrices dui sapien. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Odio facilisis mauris sit amet massa.</p>
+    </section>
+    <!-- REVIEWS HERE  ------------------------------------------------------------------------------------------>
+    
+    <section id="fake-reviews">
+        
+    </div>
+    
+      <div class="reviews-box-container">
+
+        <div class="reviews-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="Images/happy1.jpg">
+                    </div>
+
+                    <div class="name-user">
+                        <strong>Touseeq Ijaz</strong>
+                        <span>@touseeqijazweb</span>
+                    </div>
+                    
+                    <div class="reviews">
+                        <i class="fa-solid fa-star">★</i>
+                        <i class="fa-solid fa-star">★</i>
+                        <i class="fa-solid fa-star">★</i>
+                        <i class="fa-solid fa-star">★</i>
+                        <i class="fa-regular fa-star">★</i>
+                    </div>
+                </div>
+            </div>
+
+           <div class="client-comment">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu sem integer vitae justo eget magna fermentum iaculis eu. Sem viverra aliquet eget sit amet tellus.
+            </p>
+           </div>
+
+        </div>
+
+
+            <div class="reviews-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="Images/happy2.jpg">
+                        </div>
+    
+                        <div class="name-user">
+                            <strong>Touseeq Ijaz</strong>
+                            <span>@touseeqijazweb</span>
+                        </div>
+                        
+                        <div class="reviews">
+                            <i class="fa-solid fa-star">★</i>
+                            <i class="fa-solid fa-star">★</i>
+                            <i class="fa-solid fa-star">★</i>
+                            <i class="fa-solid fa-star">★</i>
+                            <i class="fa-regular fa-star">★</i>
+                        </div>
+                    </div>
+                </div>
+    
+               <div class="client-comment">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu sem integer vitae justo eget magna fermentum iaculis eu. Sem viverra aliquet eget sit amet tellus.
+                </p>
+               </div>
+    
+            </div>
+
+
+                <div class="reviews-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-img">
+                                <img src="Images/happy3.jpg">
+                            </div>
+        
+                            <div class="name-user">
+                                <strong>Touseeq Ijaz</strong>
+                                <span>@touseeqijazweb</span>
+                            </div>
+                            
+                            <div class="reviews">
+                                <i class="fa-solid fa-star">★</i>
+                                <i class="fa-solid fa-star">★</i>
+                                <i class="fa-solid fa-star">★</i>
+                                <i class="fa-solid fa-star">★</i>
+                                <i class="fa-regular fa-star">★</i>
+                            </div>
+                        </div>
+                    </div>
+        
+                   <div class="client-comment">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu sem integer vitae justo eget magna fermentum iaculis eu. Sem viverra aliquet eget sit amet tellus.
+                       <!-- REVIEWS HERE  ------------------------------------------------------------------------------------------>
+                        <div class="bg-modal" id="popup">
+                        <div class="modal-content" id="popup">
+                            <div class="exitbutton" onclick="closePopup()">+</div>
+                            <div class="divlogo">Bliss</div>
+                            <form onsubmit="Email()">
+                            <input type="text" class="formtext" placeholder="Name"></form>
+                            <input type="text" class="formtext" placeholder="E-Mail"></form>
+                            <input type="text" class="formtext" placeholder="Amout Of Stars"></form>
+                            <input type="text" class="formtext" placeholder="Quote"></form>
+                            <input type="submit" class="sumbitbutton">
+                        </div>
+                    </div>
+                    </p>
+                   </div>
+        
+                </div>
+                </div>
+                </div>
+                <script>
+                    let popup = document.getElementById("popup").style;
+            
+                    function openPopup() {
+                        popup.visibility = "visible";
+                    }
+                    function closePopup() {
+                        popup.visibility = "hidden";
+                    }
+                </script>
+</section>
